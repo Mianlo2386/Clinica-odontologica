@@ -16,11 +16,11 @@
     </properties>
 
     <dependencies>
-        <!-- Jakarta EE 9.1 and JPA esto es lo que produce automaticamente los metodos CRUD  -->
+        <!-- Java EE 7 API -->
         <dependency>
-            <groupId>jakarta.platform</groupId>
-            <artifactId>jakarta.jakartaee-api</artifactId>
-            <version>9.1.0</version>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
             <scope>provided</scope>
         </dependency>
         
@@ -110,7 +110,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>javax</groupId>
-                                    <artifactId>javaee-endorsed-api</artifactId>
+                                    <artifactId>javaee-api</artifactId>
                                     <version>7.0</version>
                                     <type>jar</type>
                                 </artifactItem>
