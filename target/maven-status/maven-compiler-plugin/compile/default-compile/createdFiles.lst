@@ -14,6 +14,7 @@ persistencia\exceptions\PreexistingEntityException.class
 persistencia\ControladoraPersistencia.class
 persistencia\exceptions\IllegalOrphanException.class
 persistencia\SecretarioJpaController.class
+logica\DatabaseInitializer.class
 logica\Odontologo.class
 logica\Responsable_.class
 servlets\SvLogin.class
